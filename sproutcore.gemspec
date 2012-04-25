@@ -24,22 +24,22 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'compass', '~> 0.11.3'
   s.add_dependency 'chunky_png', '~> 1.2.0'
-  s.add_dependency 'em-http-request', '~> 1.0'
+  # s.add_dependency 'em-http-request', '~> 1.0'
 
-  if is_jruby
-    s.add_dependency 'mongrel', '~> 1.1.5'
-  else
-    s.add_dependency 'thin', '~> 1.2.11'
-  end
+  # if is_jruby
+  #   s.add_dependency 'mongrel', '~> 1.1.5'
+  # else
+  #   s.add_dependency 'thin', '~> 1.2.11'
+  # end
 
   s.add_development_dependency 'gemcutter', "~> 0.6.0"
   s.add_development_dependency 'rspec', "~> 2.5.0"
   s.add_development_dependency 'rake'
 
   # Optional features, used in tests
-  s.add_development_dependency 'less', "~> 1.2.21"
-  s.add_development_dependency 'RedCloth', "~> 4.2.3"
-  s.add_development_dependency 'BlueCloth', "~> 1.0.1"
+  # s.add_development_dependency 'less', "~> 1.2.21"
+  # s.add_development_dependency 'RedCloth', "~> 4.2.3"
+  # s.add_development_dependency 'BlueCloth', "~> 1.0.1"
 
   s.require_paths << 'lib'
   s.require_paths << 'vendor/chance/lib'
