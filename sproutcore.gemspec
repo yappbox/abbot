@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'sass', '~> 3.1.3'
   s.add_dependency 'haml', '~> 3.1.2'
 
-  s.add_dependency 'compass', '~> 0.11.3'
+  s.add_dependency 'compass', '~> 0.12.1'
   s.add_dependency 'chunky_png', '~> 1.2.0'
   # s.add_dependency 'em-http-request', '~> 1.0'
 
